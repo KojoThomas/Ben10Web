@@ -1,0 +1,28 @@
+ls
+cd Desktop
+mkdir Ben10Web
+cd Ben10Web
+git init
+mkdir assets
+cd assets
+mkdir css fonts html imgs js
+cd css
+touch about.css index.css home.css contact.css
+cd ..
+cd html
+touch about.html index.html home.html contact.html
+cd ..
+cd js
+touch about.js index.js home.js contact.js
+cd ..
+cd ..
+git add .
+git commit -m "Fresh Tomatoes"
+ssh-keygen
+git remote add origin https://github.com/KojoThomas/Ben10Web.git
+git branch -M main
+git push -u origin main
+git pull
+git add .
+git commit -m "Fresh Tomatoes"
+git push
